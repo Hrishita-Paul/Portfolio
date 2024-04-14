@@ -1,0 +1,19 @@
+.footer{
+    padding:50px;
+    background-color:black;
+    color:white;
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+}
+.leftColumn{
+    display: flex;
+    flex-direction:column;
+   
+   
+}
+.rightColumn{
+    display: flex;
+    flex-direction:column;
+    margin-right:130px;
+}

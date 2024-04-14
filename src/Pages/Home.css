@@ -1,0 +1,20 @@
+.home{
+    background-image:url("https://media.istockphoto.com/id/1284691550/vector/blue-abstract-geometric-dynamic-shape-paper-layers-subtle-background-vector.jpg?s=2048x2048&w=is&k=20&c=Zv2Vz2nHW7ECaZRBlfCC6gRWKqk2-rH1B2ul_7spT8A=");
+    margin-top:0px;
+    display:flex;
+    margin-top:0px;
+    flex-direction:column;
+    width:100vw;
+    height:100vh;
+
+}
+.intro{
+    color:rgb(185, 30, 180);
+    font-size:50px;
+    margin-top:20px;
+    font-weight:bold;
+    text-align:center;
+}
+.intro_image{
+    margin-top:80px;
+}
