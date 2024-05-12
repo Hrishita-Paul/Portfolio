@@ -15,7 +15,7 @@ export default function About(){
       <div className="about-image">
         <Lottie options={defaultOptions} height={500} width={800} />
       </div>
-      <div className="card about-card" style={{width:"60vw"}}>
+      <div className="card about-card">
   <div className="card-body">
     <h5 className="card-title about-heading">About me</h5><br/>
     <p className="card-text about-text">I am a 3rd year student pursuing B.Tech in Computer Science and Engineering at NIT Silchar. I love problem-solving and I have keen interest in Frontend Web Development. I am an avid learner and adapt well to a collaborative working culture.</p>

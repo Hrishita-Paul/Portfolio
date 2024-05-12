@@ -17,3 +17,7 @@
     flex-direction:column;
     margin-right:130px;
 }
+.footer-link a{
+    text-decoration:none;
+    color:white;
+}

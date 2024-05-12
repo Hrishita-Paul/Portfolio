@@ -9,6 +9,7 @@ export default function Projects() {
             </div>
             <div className="projects">
             <p className="projects-heading">My Projects</p>
+            <div class="project-wrap">
             <div class="card project-card" >
                 <div className="card-body">
                     <h5 className="card-title project-heading">Central Library, NIT Silchar</h5><br />
@@ -18,8 +19,13 @@ export default function Projects() {
                         </li><li>Student Details Page: The Student Details page is designed to facilitate easy access to student information within the library system.</li>
                             <li>Book Issue page: It enables library staff to record and track books issued to students, including the due date for return.
                             </li></ol>
+                            <p className="link"><a href="https://central-library-updated.vercel.app/">Deployed Project Link</a></p>
 
                     </p>
+                    </div>
+                    </div>
+                    <div class="card project-card" >
+                    <div className="card-body">
                     <h5 className="card-title project-heading">Waste Management System</h5><br />
                     <p className="card-text project-text">Problem Statement: The project is designed to address the waste management issues on the campus of the NIT, Silchar. The primary challenge was managing and reducing waste effectively within the campus.
 
@@ -37,7 +43,9 @@ export default function Projects() {
                                  Nature of Waste Classification:
                                 The project classifies waste into two categories - biodegradable and non-biodegradable - based on its nature. </li>
                         </ol>
+                        <p className="link"><a href="https://waste-management-website-nine.vercel.app/">Deployed Project Link</a></p>
                     </p>
+                    </div>
                     </div>
                 </div>
             </div>

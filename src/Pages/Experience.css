@@ -1,5 +1,13 @@
 .experience{
+  /* background-image:url("https://images.unsplash.com/photo-1549490316-686f9b5d359f?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"); */
     padding:30px;
+}
+.experience-heading{
+  font-size:40px;
+  font-weight:bolder;
+  color:rgb(182, 31, 57);
+  text-align:center;
+  margin-top:40px;
 }
 .experience_image{
     margin:120px 500px;
@@ -7,6 +15,13 @@
     justify-content:center;
     height:200px;
 }
+#carousel{
+  margin-left:0vw;
+}
+/* .carousel-inner{
+
+  border:2px solid red;
+} */
 .carousel-control-prev,
 .carousel-control-next {
   position: absolute;
@@ -27,4 +42,11 @@
 .carousel-control-prev-icon::before,
 .carousel-control-next-icon::before {
   color: #000; /* Adjust the color of the arrow icon */
+}
+.experience-card{
+  background-color:beige;
+}
+.experience-text{
+  font-weight:bolder;
+  font-size:20px;
 }
