@@ -1,0 +1,28 @@
+[
+    {
+      "id": 1,
+      "name": "Morgan Stanley",
+      "text": "As a Technology Summer Analyst, I successfully executed a project involving the conversion of XSD schemas to POJO classes and the creation of a generic REST Template library for calling any service using any HTTP method.",
+      "src": "./images/Morgan Stanley_office.jpeg"
+    },
+    {
+      "id": 2,
+      "name": "GDSC, NIT Silchar",
+      "text": "I was one of the organizers in  the NITS Hacks 6.0 Hackathon  where I served as the anchor for both the opening and closing ceremonies.",
+      "src": "./images/openingCeremony.jpeg"
+    },
+    {
+      "id": 3,
+      "name": "GDSC, NIT Silchar",
+      "text": "As a mentor, I was one of the speakers in CSS and React.js workshops at NIT Silchar, where I taught students key front-end development skills and best practices.",
+      "src": "./images/kickstart.jpeg"
+    },
+    {
+      "id": 4,
+      "name": "GDSC, NIT Silchar",
+      "text": "In my role as a co-head developer, I played a pivotal role in overseeing the Oikyotaan website and ensuring the successful execution of the event's technical aspects.",
+      "src": "./images/orientation.jpeg"
+    }
+    
+  ]
+  

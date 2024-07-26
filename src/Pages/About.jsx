@@ -1,5 +1,6 @@
 import Lottie from 'react-lottie';
 import animationData from '.././Lottie/about.json';
+// import  image from "../Components/my-image.JPG";
 import "./About.css"
 export default function About(){
     const defaultOptions = {
@@ -13,15 +14,17 @@ export default function About(){
       return(
     <div className="about">
       <div className="about-image">
-        <Lottie options={defaultOptions} height={500} width={800} />
+        <Lottie options={defaultOptions} height={350} width={500} />
       </div>
       <div className="card about-card">
+        {/* <img src={image} className="my-image" width={200} height={200}/> */}
   <div className="card-body">
     <h5 className="card-title about-heading">About me</h5><br/>
-    <p className="card-text about-text">I am a 3rd year student pursuing B.Tech in Computer Science and Engineering at NIT Silchar. I love problem-solving and I have keen interest in Frontend Web Development. I am an avid learner and adapt well to a collaborative working culture.</p>
+    <p className="card-text about-text">I am a 4th year student pursuing B.Tech in Computer Science and Engineering at NIT Silchar. I love problem-solving and I have keen interest in Frontend Web Development. I am an avid learner and adapt well to a collaborative working culture.</p>
     <h5 className="card-title about-heading">Skills:</h5><br/>
     <p className="card-text about-text">Languages: C++, JavaScript, Java<br/>
-    Tools: Git, Github<br/>
+    Frameworks: React.js, Spring Boot, Bootstrap<br/>
+    Tools: Git, GitHub, MySQL, Swagger, Actuator, Prometheus<br/>
     Coursework: DBMS, OS, DSA, OOP</p>
     
   </div>

@@ -1,52 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+:root {
+  --swiper-navigation-color: rgba(245, 238, 238, 0.845);
+  --swiper-button-next-color: blue;
+}
 .experience{
-  /* background-image:url("https://images.unsplash.com/photo-1549490316-686f9b5d359f?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"); */
-    padding:30px;
+  padding:100px;
+  
+  /* background-image:url("https://plus.unsplash.com/premium_vector-1689096640138-17f71f950776?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fGJhY2tncm91bmR8ZW58MHx8MHx8fDA%3D"); */
+  background-color: #8dc0e9;
 }
+
 .experience-heading{
-  font-size:40px;
-  font-weight:bolder;
-  color:rgb(182, 31, 57);
   text-align:center;
-  margin-top:40px;
+    font-size:40px;
+    font-weight:bolder;
+    color:rgb(27, 51, 174);
 }
-.experience_image{
-    margin:120px 500px;
-    display:flex;
-    justify-content:center;
-    height:200px;
-}
-#carousel{
-  margin-left:0vw;
-}
-/* .carousel-inner{
-
-  border:2px solid red;
-} */
-.carousel-control-prev,
-.carousel-control-next {
-  position: absolute;
-  top: 50%;
-  transform: translateY(-100%);
-  z-index: 1;
+.ParentDivision {
+  /* background-image: url(https://res.cloudinary.com/dl0knguhb/image/upload/v1712137199/pngwing_3_slripp.webp);
+  background-repeat: no-repeat;
+  background-size: cover; */
+  min-height: 100vh;
 }
 
-.carousel-control-prev {
-  left: 0;
+.BottomImage {
+  position: relative;
+}
+.bottomParent {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+}
+.LeftBtn {
+  background-color: transparent;
+  @media screen and (max-width: 315px) {
+    scale: 0.5;
+  }
+}
+.RightBtn {
+  background-color: transparent;
+  @media screen and (max-width: 315px) {
+    scale: 0.5;
+  }
+}
+.BottomDiv {
+  background-image: none;
+  display: flex;
+
+  width: 60%;
+  margin-bottom: 4rem;
+  padding: 1rem;
+  background: linear-gradient(to right,rgb(101, 172, 222),rgb(63, 157, 215), rgb(30, 182, 243));
+  border-radius: 16px;
+  backdrop-filter: blur(60px) brightness(100%);
+  -webkit-backdrop-filter: blur(60px) brightness(100%);
+  border-color: transparent;
+  border: 4px solid;
+  border-image: radial-gradient(rgb(255, 0, 214.2), rgba(21, 21, 21, 0)) 1;
+  box-shadow: 0px 1px 24px -1px rgba(0, 0, 0, 0.2);
+}
+.EventText {
+  font-weight: 300;
+  text-align: justify;
+  font-family: Montserrat;
+  padding: 5% 20% 5% 20%;
+  color: aliceblue;
+  font-family: var(--font-1);
+}
+.SliderDiv {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.h1 {
+  color: antiquewhite;
+  text-align: center;
+  font-weight: 200;
+  font-family: var(--font-1);
+  position: relative;
+  top: 0.6rem;
+}
+.Text {
+  font-family: var(--font-1);
+}
+button {
+  background-color: #433672;
+  border: transparent;
 }
 
-.carousel-control-next {
-  right: 0;
+.musical {
+  margin-left: -1rem;
+  width: 14rem;
+}
+.musical1 {
+  margin-left: -1rem;
+  width: 14rem;
+  transform: scaleX(-1);
+}
+
+.DholEvent {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  height: 10%;
+}
+.swiperclass {
+  display: flex;
+  flex-direction: column;
+  height: 200px;
+  width: 200px;
+}
+
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #750e9d;
+
+  /* Center slide text vertically */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.mySwiper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+}
+
+.swiperclass .image {
+  width: 75%;
+  height: 18vw;
+}
+
+.swiperclass {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 95%;
+  height: 100%;
+}
+.BottomDiv2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 3rem;
+  width: 80%;
+  margin-bottom: 4rem;
+  padding: 7%;
 }
 
 
-.carousel-control-prev-icon::before,
-.carousel-control-next-icon::before {
-  color: #000; /* Adjust the color of the arrow icon */
-}
-.experience-card{
-  background-color:beige;
-}
-.experience-text{
-  font-weight:bolder;
-  font-size:20px;
+@media screen and (max-width: 768px) {
+  .BottomDiv {
+    width: 85vw;
+  }
+  .EventText {
+    padding: 5% 10% 5% 10%;
+  }
 }

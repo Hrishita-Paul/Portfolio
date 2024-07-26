@@ -14,7 +14,7 @@ export default function Home(){
       };
       
       const [text, setText] = useState('');
-  const message = "Hello, this is Hrishita Paul";
+  const message = "Welcome visitor, this is Hrishita Paul";
 
   useEffect(() => {
     let currentIndex = 0;
@@ -25,9 +25,9 @@ export default function Home(){
       } else {
         clearInterval(interval);
       }
-    }, 100); // Adjust the typing speed by changing the interval
+    }, 100); 
     return () => clearInterval(interval);
-  }, [message]); // Added message as a dependency to useEffect
+  }, [message]); 
 
       return(
         <div className="home">

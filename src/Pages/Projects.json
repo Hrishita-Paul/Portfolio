@@ -1,0 +1,26 @@
+[
+    {
+      "id": 1,
+      "title": "Central Library, NIT Silchar",
+      "description": "This project was created to provide an efficient and user-friendly solution for managing the resources and services of a university's central library.",
+      "user": "The Central Library Management System is primarily designed for the library staff. They are the key users of the system and rely on it to efficiently manage library resources and student information.",
+      "technologies": "CSS, React.js.",
+      "link":"https://central-library-updated.vercel.app/"
+    },
+    {
+      "id": 2,
+      "title": "Waste Management System",
+      "description": "The project is designed to address the waste management issues on the campus of the NIT, Silchar. The primary challenge includes managing and reducing waste effectively within the campus.",
+      "user": "The primary users of this project include the teaching and non-teaching staff and students of NIT Silchar. They are responsible for reporting and categorizing waste found on campus.",
+      "technologies": "CSS, React.js.",
+      "link":"https://waste-management-website-nine.vercel.app/"
+    },
+    {
+      "id": 3,
+      "title": "ATM Simulation",
+      "description": "This project aims to create a secure system where users can perform various banking transactions, such as logging in with a PIN, transferring, depositing, and withdrawing money, as well as checking account balances.",
+      "user": "The  users of the system can be any individual who wants to manage money through effective banking transactions.",
+      "technologies": "Java, OOP.",
+      "link":"https://github.com/Hrishita-Paul/Java.git"
+    }
+]
