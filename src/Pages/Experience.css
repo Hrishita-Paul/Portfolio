@@ -51,7 +51,7 @@
   width: 60%;
   margin-bottom: 4rem;
   padding: 1rem;
-  background: linear-gradient(to right,rgb(101, 172, 222),rgb(63, 157, 215), rgb(30, 182, 243));
+  background: #750e9d;
   border-radius: 16px;
   backdrop-filter: blur(60px) brightness(100%);
   -webkit-backdrop-filter: blur(60px) brightness(100%);
@@ -122,7 +122,8 @@ button {
 .swiper-slide {
   text-align: center;
   font-size: 18px;
-  background: #750e9d;
+  background: linear-gradient(to right,rgb(181, 109, 203),rgb(207, 85, 218), rgb(171, 28, 214));
+  /* background: #750e9d; */
 
   /* Center slide text vertically */
   display: flex;

@@ -8,9 +8,9 @@ export default function Footer(){
                 <p className="footer-link">  <a href="https://leetcode.com/reinforcer/"  target="_blank" rel="noreferrer">LeetCode profile</a></p>
                 </div>
                 <div className="rightColumn">
-                <p className="footer-link"><a href="https://github.com/Hrishita-Paul" target="_blank" rel="noreferrer"> Github </a></p>
+                <p className="footer-link"><a href="https://github.com/Hrishita-Paul" target="_blank" rel="noreferrer"> GitHub profile link</a></p>
                 <p className="footer-link"><a href="https://www.geeksforgeeks.org/user/hrishit4kfx/"  target="_blank" rel="noreferrer"> GeeksForGeeks profile</a></p>
-                <p className="footer-link">Resume link: <a href="https://drive.google.com/file/d/14SAX1H69T2reLVqeOR6nEB_SY56zFB9V/view?usp=sharing" target="_blank" rel="noreferrer">Click Here</a></p>
+                <p className="footer-link">Resume link: <a href="https://drive.google.com/file/d/1SA7bH7V5-FQ6OXHpRZ9vOEZqNKEdld12/view?usp=sharing" target="_blank" rel="noreferrer">Click Here</a></p>
                 </div>
         </div>
     )
