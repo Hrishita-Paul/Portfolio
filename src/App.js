@@ -14,7 +14,7 @@ function App() {
   return (
     <div className="App">
       <Router>
-      <Navbar bg="dark" expand="lg" variant="dark" className="fixed-top">
+      <Navbar expand="lg" variant="dark" className="fixed-top" style={{ backgroundColor: '#1A2A40' }}>
         <Navbar.Brand >
          Portfolio
         </Navbar.Brand>

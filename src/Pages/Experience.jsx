@@ -38,7 +38,7 @@ const Experience = () => {
               <Swiper
                 navigation
                 pagination={{ clickable: true }}
-                autoplay={{ delay: 5500, disableOnInteraction: false }}
+                autoplay={{ delay: 6500, disableOnInteraction: false }}
                 className="mySwiper"
               >
                 {exp.map((e) => (

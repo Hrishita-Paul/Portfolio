@@ -22,6 +22,18 @@
       "name": "GDSC, NIT Silchar",
       "text": "In my role as a co-head developer, I played a pivotal role in overseeing the Oikyotaan website and ensuring the successful execution of the event's technical aspects.",
       "src": "./images/orientation.jpeg"
+    },
+    {
+      "id": 5,
+      "name": "GSSoC'24",
+      "text": "During the 3-month-long GirlScript Summer of Code (GSSoC) '24, I contributed to the Counsellor-Web and EmoWell repositories using React.js. My work involved developing and refining features, which earned me the 197th rank out of many participants.",
+      "src": "./images/leaderboard.png"
+    },
+    {
+        "id": 6,
+        "name": "Code For Good'24 Hackathon",
+        "text": "At the Code for Good Hackathon '24 organized by JP Morgan Chase, I collaborated with my team for 24 hours to enhance the functionalities of a website that empowers women by promoting financial literacy.",
+        "src": "./images/CFG.jpeg"
     }
     
   ]

@@ -10,7 +10,7 @@ export default function Footer(){
                 <div className="rightColumn">
                 <p className="footer-link"><a href="https://github.com/Hrishita-Paul" target="_blank" rel="noreferrer"> GitHub profile link</a></p>
                 <p className="footer-link"><a href="https://www.geeksforgeeks.org/user/hrishit4kfx/"  target="_blank" rel="noreferrer"> GeeksForGeeks profile</a></p>
-                <p className="footer-link">Resume link: <a href="https://drive.google.com/file/d/1SA7bH7V5-FQ6OXHpRZ9vOEZqNKEdld12/view?usp=sharing" target="_blank" rel="noreferrer">Click Here</a></p>
+                <p className="footer-link">Resume link: <a href="https://drive.google.com/file/d/1ehCxPLH1zZ8kQIteIaZsdWKSSHfozleZ/view?usp=sharing" target="_blank" rel="noreferrer">Click Here</a></p>
                 </div>
         </div>
     )

@@ -90,23 +90,7 @@ button {
   border: transparent;
 }
 
-.musical {
-  margin-left: -1rem;
-  width: 14rem;
-}
-.musical1 {
-  margin-left: -1rem;
-  width: 14rem;
-  transform: scaleX(-1);
-}
 
-.DholEvent {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: space-around;
-  height: 10%;
-}
 .swiperclass {
   display: flex;
   flex-direction: column;
@@ -141,7 +125,7 @@ button {
 
 .swiperclass .image {
   width: 75%;
-  height: 18vw;
+  height: 20vw;
 }
 
 .swiperclass {
