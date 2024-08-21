@@ -1,7 +1,6 @@
-import React from "react";
+import React,{useEffect} from "react";
 import "./Projects.css";
 import projects from "./Projects.json";
-
 import centralLibraryImage from "../assets/Central Library_Image.jpeg";
 import wasteManagementImage from "../assets/Waste Management_image.jpeg";
 import atmImage from "../assets/ATM.avif";
@@ -12,6 +11,9 @@ const projectImages = {
   3: atmImage,
 };
 const Projects = () => {
+useEffect(()=>{
+window.scrollTo(0,0);
+},[]);
 
 
 

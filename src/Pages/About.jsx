@@ -1,8 +1,12 @@
+import {useEffect} from "react";
 import Lottie from 'react-lottie';
 import animationData from '.././Lottie/about.json';
 // import  image from "../Components/my-image.JPG";
 import "./About.css"
 export default function About(){
+  useEffect(()=>{
+    window.scrollTo(0,0);
+  },[]);
     const defaultOptions = {
         loop: true,
         autoplay: true,

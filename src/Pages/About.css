@@ -46,18 +46,31 @@ body{
     text-align:center;
     font-size:40px;
     font-weight:bolder;
-    /* padding-top:20px;
-    padding-bottom:50px; */
-    /* border:2px solid red; */
 }
 .about-text{
     font-weight:bold;
     font-size:20px;
-    color:#333333;
+    color:#FF4500;
 }
-@media screen  and (max-width:800px){
+@media screen  and (max-width:380px){
     .about{
         flex-direction:column;
+    }
+    .about-image{
+       display:none;
+    }
+    .about-card{
+        display:flex;
+        flex-direction:column;
+        width:90vw;
+        margin-left:20px;
+        padding:5px 5px 5px 5px;
+    }
+    .about-heading{
+      font-size:30px; 
+    }
+    .about-text{
+        font-size:15px;
     }
     
 }

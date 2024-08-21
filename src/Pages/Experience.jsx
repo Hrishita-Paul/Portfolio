@@ -8,7 +8,6 @@ import 'swiper/swiper-bundle.min.css';
 // import 'swiper/components/navigation/navigation.min.css';
 import SwiperCore, { Navigation, Pagination, Autoplay } from 'swiper';
 
-// Install Swiper modules
 SwiperCore.use([Navigation, Pagination, Autoplay]);
 
 const Experience = () => {

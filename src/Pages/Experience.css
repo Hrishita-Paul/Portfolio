@@ -5,8 +5,6 @@
 }
 .experience{
   padding:100px;
-  
-  /* background-image:url("https://plus.unsplash.com/premium_vector-1689096640138-17f71f950776?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fGJhY2tncm91bmR8ZW58MHx8MHx8fDA%3D"); */
   background-color: #8dc0e9;
 }
 
@@ -16,16 +14,11 @@
     font-weight:bolder;
     color:rgb(27, 51, 174);
 }
-.ParentDivision {
-  /* background-image: url(https://res.cloudinary.com/dl0knguhb/image/upload/v1712137199/pngwing_3_slripp.webp);
-  background-repeat: no-repeat;
-  background-size: cover; */
+.ParentDiv {
   min-height: 100vh;
 }
 
-.BottomImage {
-  position: relative;
-}
+
 .bottomParent {
   display: flex;
   align-items: center;
@@ -47,7 +40,6 @@
 .BottomDiv {
   background-image: none;
   display: flex;
-
   width: 60%;
   margin-bottom: 4rem;
   padding: 1rem;
@@ -68,12 +60,7 @@
   color: aliceblue;
   font-family: var(--font-1);
 }
-.SliderDiv {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-}
+
 .h1 {
   color: antiquewhite;
   text-align: center;
@@ -82,34 +69,29 @@
   position: relative;
   top: 0.6rem;
 }
-.Text {
-  font-family: var(--font-1);
-}
+
 button {
   background-color: #433672;
   border: transparent;
 }
 
 
-.swiperclass {
+/* .swiperclass {
   display: flex;
   flex-direction: column;
   height: 200px;
   width: 200px;
-}
+} */
 
-.swiper {
+/* .swiper {
   width: 100%;
   height: 100%;
-}
+} */
 
 .swiper-slide {
   text-align: center;
   font-size: 18px;
   background: linear-gradient(to right,rgb(181, 109, 203),rgb(207, 85, 218), rgb(171, 28, 214));
-  /* background: #750e9d; */
-
-  /* Center slide text vertically */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -128,31 +110,36 @@ button {
   height: 20vw;
 }
 
-.swiperclass {
+/* .swiperclass {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   width: 95%;
   height: 100%;
-}
-.BottomDiv2 {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  gap: 3rem;
-  width: 80%;
-  margin-bottom: 4rem;
-  padding: 7%;
-}
+} */
+
 
 
 @media screen and (max-width: 768px) {
+  .experience-heading{
+    margin-right:auto;
+    margin-left:auto;
+  }
   .BottomDiv {
-    width: 85vw;
+    width: 100vw;
+    padding: 1rem 5rem 1rem 5rem; 
   }
   .EventText {
     padding: 5% 10% 5% 10%;
+    font-size:10px;
+  }
+  .swiper-slide {
+    width: 100vw; 
+    max-width: 100%; 
+  }
+  .swiperclass .image {
+    width: 180px; 
+    height: 200px; 
   }
 }
