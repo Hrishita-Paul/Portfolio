@@ -7,6 +7,7 @@ import Home from "./Pages/Home.jsx"
 import About from "./Pages/About.jsx"
 import Projects from "./Pages/Projects.jsx"
 import Experience from "./Pages/Experience.jsx"
+import Contact from "./Pages/Contact.jsx"
 import Footer from "./Components/Footer.jsx"
 
 function App() {
@@ -33,6 +34,9 @@ function App() {
             <Nav.Link as={Link} to="/experience" style={{ color: 'white' }}>
               Experience
             </Nav.Link>
+            <Nav.Link as={Link} to="/contact" style={{ color: 'white' }}>
+              Contact Me
+            </Nav.Link>
   
   
           </Nav>
@@ -43,6 +47,7 @@ function App() {
         <Route exact path="/about" element={<About />} />
         <Route exact path="/projects" element={<Projects />} />
         <Route exact path="/experience" element={<Experience />} />
+        <Route exact path="/contact" element={<Contact />} />
        
       </Routes>
     </Router>

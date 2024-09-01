@@ -3,6 +3,7 @@
   --swiper-navigation-color: rgba(245, 238, 238, 0.845);
   --swiper-button-next-color: blue;
 }
+
 .experience{
   padding:100px;
   background-color: #8dc0e9;
@@ -13,6 +14,7 @@
     font-size:40px;
     font-weight:bolder;
     color:rgb(27, 51, 174);
+    font-family: 'Poppins', sans-serif;
 }
 .ParentDiv {
   min-height: 100vh;

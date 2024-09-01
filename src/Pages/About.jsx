@@ -27,8 +27,8 @@ export default function About(){
     <p className="card-text about-text">I am a 4th year student pursuing B.Tech in Computer Science and Engineering at NIT Silchar. I love problem-solving and I have keen interest in Frontend Web Development. I am an avid learner and adapt well to a collaborative working culture.</p>
     <h5 className="card-title about-heading">Skills:</h5><br/>
     <p className="card-text about-text">Languages: C++, JavaScript, Java<br/>
-    Frameworks: React.js, Spring Boot, Bootstrap<br/>
-    Tools: Git, GitHub, MySQL, Swagger, Actuator, Prometheus<br/>
+    Technologies: React.js, Node.js, Express, Spring Boot, Bootstrap<br/>
+    Tools: Git, GitHub, MySQL,MongoDB, Swagger, Actuator, Prometheus<br/>
     Coursework: DBMS, OS, DSA, OOP</p>
     
   </div>
