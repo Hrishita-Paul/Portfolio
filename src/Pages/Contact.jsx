@@ -6,6 +6,7 @@ const Contact = () => {
     const [email, setEmail] = useState("");
     const [message, setMessage] = useState("");
     const [linkedIn, setLinkedIn] = useState("");
+    const [success,setSuccess]=useState(null);
     const [alert, setAlert] = useState(null);
 
     const handleInputChange = (e) => {
@@ -33,7 +34,7 @@ const Contact = () => {
             });
 
             if (response.ok) {
-                setAlert('Your message was sent successfully!');
+                setSuccess('Your message was sent successfully!');
                 setName("");
                 setEmail("");
                 setLinkedIn("");
@@ -48,13 +49,15 @@ const Contact = () => {
         // Clear alert after 5 seconds
         setTimeout(() => {
             setAlert(null);
-        }, 5000);
+            setSuccess(null);
+        }, 4000);
     };
 
     return (
         <div className="contact-form">
+            {success && <div className="success">{success}</div>}
             {alert && <div className="alert">{alert}</div>}
-            <h2 className="projects-title">Contact Me</h2>
+            <h2 className="contact-title">Contact Me</h2>
             <form onSubmit={handleSubmit}>
                 <input
                     type="text"

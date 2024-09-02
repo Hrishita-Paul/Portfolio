@@ -5,7 +5,7 @@
 }
 
 .experience{
-  padding:100px;
+  padding-top:100px;
   background-color: #8dc0e9;
 }
 
@@ -16,16 +16,15 @@
     color:rgb(27, 51, 174);
     font-family: 'Poppins', sans-serif;
 }
-.ParentDiv {
-  min-height: 100vh;
-}
 
 
 .bottomParent {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin: 0 auto;
+  /* border:5px solid green; */
+  min-height: 100vh;
+  margin-bottom:20px;
 }
 .LeftBtn {
   background-color: transparent;
@@ -53,6 +52,7 @@
   border: 4px solid;
   border-image: radial-gradient(rgb(255, 0, 214.2), rgba(21, 21, 21, 0)) 1;
   box-shadow: 0px 1px 24px -1px rgba(0, 0, 0, 0.2);
+  /* border:5px solid blue; */
 }
 .EventText {
   font-weight: 300;
@@ -78,48 +78,24 @@ button {
 }
 
 
-/* .swiperclass {
-  display: flex;
-  flex-direction: column;
-  height: 200px;
-  width: 200px;
-} */
 
-/* .swiper {
-  width: 100%;
-  height: 100%;
-} */
-
-.swiper-slide {
-  text-align: center;
-  font-size: 18px;
-  background: linear-gradient(to right,rgb(181, 109, 203),rgb(207, 85, 218), rgb(171, 28, 214));
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
 
 .mySwiper {
   display: flex;
+  background: linear-gradient(to right,rgb(181, 109, 203),rgb(207, 85, 218), rgb(171, 28, 214));
   flex-direction: column;
+  font-size: 18px;
   justify-content: center;
   align-items: center;
+  text-align:center;
   width: 90%;
+  /* border:5px solid yellow; */
 }
 
 .swiperclass .image {
   width: 75%;
   height: 20vw;
 }
-
-/* .swiperclass {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  width: 95%;
-  height: 100%;
-} */
 
 
 
@@ -128,20 +104,38 @@ button {
     margin-right:auto;
     margin-left:auto;
   }
+  .bottomParent{
+    position:absolute;
+    left:0;
+    width:100vw;
+    align-items:flex-start;
+    background-color: #8dc0e9;
+  }
   .BottomDiv {
-    width: 100vw;
-    padding: 1rem 5rem 1rem 5rem; 
+   
+    margin:10px 0;
+    width: 80vw;
+    padding: 1rem;
   }
   .EventText {
-    padding: 5% 10% 5% 10%;
-    font-size:10px;
+    padding: 5% 5% 1% 5%;
+    color:white;
+    font-size:14px;
+    /* border:2px solid red; */
+  }
+  .mySwiper {
+   
+    padding:5px;
+    width: 80%;
+    
   }
   .swiper-slide {
-    width: 100vw; 
+    width: 80vw; 
     max-width: 100%; 
   }
   .swiperclass .image {
-    width: 180px; 
-    height: 200px; 
+    text-align:center;
+    width: 120px; 
+    height: 120px; 
   }
 }

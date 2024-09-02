@@ -1,12 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
-.projects-title{
+.contact-title{
     font-family: 'Poppins', sans-serif;
+    text-align: center;
+    margin-bottom:20px;
+    font-size: 3em;
+    color:rgb(27, 51, 174);
 }
 body{
     background-color: #8dc0e9;
 }
 .contact-form{
-   
     margin-top: 100px;
     display:flex;
     justify-content:center;
@@ -32,8 +35,19 @@ input, .message{
     background-color:rgb(54, 54, 212);
     margin-bottom:30px;
 }
+.success{
+    background-color:#5cb85c;
+    color:white;
+    font-weight:bold;
+    margin-right:0px;
+    margin-top:100px;
+    padding: 10px;
+    position: fixed; /* Fixes the position */
+    top:0;
+    right:0;
+}
 .alert{
-    background-color: rgb(210, 72, 72);
+    background-color: #d9534f;
     color:white;
     font-weight:bold;
     margin-right:0px;
@@ -44,7 +58,7 @@ input, .message{
     right:0;
 }
 @media screen and (max-width:400px){
-    .projects-title{
+    .contact-title{
         margin-top:45px;
         margin-bottom:6px;
     }
@@ -59,6 +73,10 @@ input, .message{
         width:20vw;
         background-color:rgb(54, 54, 212);
         margin-bottom:30px;
+    }
+    .success{
+        margin-top:60px;
+        width:70vw;
     }
     .alert{
         margin-top:60px;

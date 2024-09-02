@@ -1,7 +1,7 @@
-/* @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
 body{
     font-family: 'Poppins', sans-serif;
-} */
+}
 .about{
     background-color: #8dc0e9;
     margin-top:0px;
@@ -21,13 +21,10 @@ body{
 }
 .my-image{
     margin-left:330px;
-    /* float:left;*/
 } 
 .card-body{
     overflow:hidden;
-    /* position: relative; */
     float:right;
-    /* display:flex; */
 } 
 .about-card{
     display:flex;

@@ -31,7 +31,6 @@ const Experience = () => {
         <Lottie options={defaultOptions} height={60} width={100} />
       </div>
       <div style={{ overflowX: 'hidden' }}>
-        <div className="ParentDiv">
           <div className="bottomParent">
             <div className="BottomDiv">
               <Swiper
@@ -49,7 +48,6 @@ const Experience = () => {
                 ))}
               </Swiper>
             </div>
-          </div>
         </div>
       </div>
     </div>
