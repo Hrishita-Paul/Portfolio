@@ -1,85 +1,98 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
-.contact-title{
+
+.contact-title {
     font-family: 'Poppins', sans-serif;
     text-align: center;
-    margin-bottom:20px;
+    margin-bottom: 20px;
     font-size: 3em;
-    color:rgb(27, 51, 174);
-}
-body{
-    background-color: #8dc0e9;
-}
-.contact-form{
-    margin-top: 100px;
-    display:flex;
-    justify-content:center;
-    flex-direction:column;
+    color: rgb(27, 51, 174);
 }
 
-input, .message{
-    width:60vw;
-    padding:20px;
-    margin:20px 300px;
-    display:flex;
-    outline:none;
+body {
+    background-color: #8dc0e9;
+}
+
+.contact-form {
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+input,
+.message {
+    width: 60vw;
+    padding: 20px;
+    margin: 20px 300px;
+    display: flex;
+    outline: none;
     padding: 10px;
-    border-radius:6px;
-    
+    border-radius: 6px;
+
 }
-.submit{
-    margin-left:300px;
-    border-radius:6px;
-    padding:10px;
-    color:white;
-    width:5vw;
-    background-color:rgb(54, 54, 212);
-    margin-bottom:30px;
-}
-.success{
-    background-color:#5cb85c;
-    color:white;
-    font-weight:bold;
-    margin-right:0px;
-    margin-top:100px;
+
+.submit {
+    margin-left: 300px;
+    border-radius: 6px;
     padding: 10px;
-    position: fixed; /* Fixes the position */
-    top:0;
-    right:0;
+    color: white;
+    width: 5vw;
+    background-color: rgb(54, 54, 212);
+    margin-bottom: 30px;
 }
-.alert{
+
+.success {
+    background-color: #5cb85c;
+    color: white;
+    font-weight: bold;
+    margin-right: 0px;
+    margin-top: 100px;
+    padding: 10px;
+    position: fixed;
+    top: 0;
+    right: 0;
+}
+
+.alert {
     background-color: #d9534f;
-    color:white;
-    font-weight:bold;
-    margin-right:0px;
-    margin-top:100px;
+    color: white;
+    font-weight: bold;
+    margin-right: 0px;
+    margin-top: 100px;
     padding: 10px;
-    position: fixed; /* Fixes the position */
-    top:0;
-    right:0;
+    position: fixed;
+    top: 0;
+    right: 0;
 }
-@media screen and (max-width:400px){
-    .contact-title{
-        margin-top:45px;
-        margin-bottom:6px;
+
+@media screen and (max-width:400px) {
+    .contact-title {
+        margin-top: 45px;
+        margin-bottom: 6px;
     }
-    input, .message{
-        width:70vw;
-        margin:20px 70px;
-        display:flex;
-        justify-content:center;
+
+    input,
+    .message {
+        width: 70vw;
+        margin: 20px 70px;
+        display: flex;
+        justify-content: center;
     }
-    .submit{
-        margin-left:70px;
-        width:20vw;
-        background-color:rgb(54, 54, 212);
-        margin-bottom:30px;
+
+    .submit {
+        margin-left: 70px;
+        width: 20vw;
+        background-color: rgb(54, 54, 212);
+        margin-bottom: 30px;
     }
-    .success{
-        margin-top:60px;
-        width:70vw;
+
+    .success {
+        margin-top: 60px;
+        width: 70vw;
     }
-    .alert{
-        margin-top:60px;
-        width:70vw;
+
+    .alert {
+        margin-top: 60px;
+        width: 70vw;
     }
 }

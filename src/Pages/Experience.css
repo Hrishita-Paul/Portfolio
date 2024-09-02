@@ -57,10 +57,8 @@
 .EventText {
   font-weight: 300;
   text-align: justify;
-  font-family: Montserrat;
   padding: 5% 20% 5% 20%;
   color: aliceblue;
-  font-family: var(--font-1);
 }
 
 .h1 {
@@ -112,22 +110,22 @@ button {
     background-color: #8dc0e9;
   }
   .BottomDiv {
-   
+   height:70vh;
     margin:10px 0;
     width: 80vw;
-    padding: 1rem;
+    padding:8px 2px;;
+    
   }
   .EventText {
     padding: 5% 5% 1% 5%;
     color:white;
-    font-size:14px;
-    /* border:2px solid red; */
+    font-size:16px;
+   
   }
   .mySwiper {
-   
-    padding:5px;
+   padding:5px;
     width: 80%;
-    
+  
   }
   .swiper-slide {
     width: 80vw; 
@@ -135,7 +133,7 @@ button {
   }
   .swiperclass .image {
     text-align:center;
-    width: 120px; 
+    width: 180px; 
     height: 120px; 
   }
 }
