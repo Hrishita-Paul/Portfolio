@@ -6,7 +6,7 @@ const Contact = () => {
     const [email, setEmail] = useState("");
     const [message, setMessage] = useState("");
     const [linkedIn, setLinkedIn] = useState("");
-    const [success,setSuccess]=useState(null);
+    const [success, setSuccess] = useState(null);
     const [alert, setAlert] = useState(null);
 
     const handleInputChange = (e) => {
@@ -25,7 +25,7 @@ const Contact = () => {
     const handleSubmit = async (e) => {
         e.preventDefault();
         try {
-            const response = await fetch('http://localhost:5000/api/contact', {
+            const response = await fetch('https://portfolio-backend-2wsd.onrender.com/api/contact', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',
